@@ -1,0 +1,42 @@
+body{
+    background-color: #76F263;
+}
+nav{
+    background-color: #2C7A20;
+}
+/* Le da una altura fija a todas las imágenes de las cards y evita que se deformen */
+.card-img-top {
+  height: 270px;       /* Ajusta este número según el alto que prefieras */
+     /* Recorta suavemente los bordes sobrantes en lugar de estirar */
+}
+footer {
+    background-color: #2C7A20;
+}
+
+#minilogo{
+    height: 25px;
+    width: 25px;
+}
+/* Transición suave para todas las cards */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el puntero sobre la card */
+.card:hover {
+  transform: translateY(-8px); /* Eleva la tarjeta 8 píxeles hacia arriba */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4) !important; /* Intensifica la sombra */
+}
+
+
+.btn-primary {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.2); 
+}
+#btnInsta:hover {
+  transform: scale(1.03); 
+   
+}
